@@ -8,9 +8,15 @@ section {
     display: flex;
     flex-wrap: wrap;
     /* height: 200px; */
-    /* width: 100px; */
+    /* width: 100%; */
+    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
-    align-items: center;
+}
+section p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 .intro {
     display: flex;
@@ -21,9 +27,10 @@ a {
     text-decoration: none;
     line-height: 30px;
     color: #C0FDFB;
-}
-button {
     background-color: #FAD4C0;
+    width: 135px;
+    font-size: 1.25rem;
+    padding: 5px;
 }
 body {
     color: #64B6AC;
@@ -32,6 +39,12 @@ body {
 }
 header {
     background-color: #352825;
+    padding: 5px;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 footer {
     display: flex;
@@ -44,13 +57,11 @@ footer button {
     font-size: 1.25rem;
 }
 img {
-    display: inline-block;
-    /* flex-direction: row; */
-    align-items: ;
+    /* display: inline-block;    */
+    /* margin: 20px; */
+    height: 200px;
+    /* width: 175px; */
 }
-/* footer a { 
-    text-align: center;
-} */
 footer section { 
     display: flex;
     flex-direction: column;
@@ -71,3 +82,5 @@ footer section {
         flex-direction: column;
     }
 } 
+
+
