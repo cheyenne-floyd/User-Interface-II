@@ -1,1 +1,73 @@
-/* Add CSS styling here */
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 200px; */
+    /* width: 100px; */
+    flex-direction: row;
+    align-items: center;
+}
+.intro {
+    display: flex;
+    text-align: center;
+    margin: 30px;
+}
+a {
+    text-decoration: none;
+    line-height: 30px;
+    color: #C0FDFB;
+}
+button {
+    background-color: #FAD4C0;
+}
+body {
+    color: #64B6AC;
+    background-color: #A07558;
+    font-size: 1.5rem;
+}
+header {
+    background-color: #352825;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #352825;
+    text-align: center;
+}
+footer button {
+    width: 135px;
+    font-size: 1.25rem;
+}
+img {
+    display: inline-block;
+    /* flex-direction: row; */
+    align-items: ;
+}
+/* footer a { 
+    text-align: center;
+} */
+footer section { 
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 800px) {
+    body {
+        background-color: red;
+    }
+
+}
+@media (max-width: 500px) {
+    body {
+        background-color: darkmagenta;
+
+    }
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+} 
